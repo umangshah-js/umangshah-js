@@ -15,8 +15,8 @@ Software Engineer based in New York City. I build reliable backend systems, data
 ## GitHub Snapshot
 
 <p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=umangshah-js&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="Umang Shah GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umangshah-js&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats-fast.vercel.app/api?username=umangshah-js&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="Umang Shah GitHub stats" />
+  <img height="170" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=umangshah-js&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
 </p>
 
 <p>
