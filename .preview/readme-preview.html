@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Profile README Preview</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f8fa;
+        --surface: #ffffff;
+        --border: #d0d7de;
+        --text: #1f2328;
+        --muted: #59636e;
+        --link: #0969da;
+        --code-bg: rgba(175, 184, 193, 0.2);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      }
+
+      .page {
+        max-width: 980px;
+        margin: 32px auto;
+        padding: 0 16px;
+      }
+
+      .note {
+        margin-bottom: 16px;
+        padding: 12px 16px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: #fff8c5;
+        color: #6e4e00;
+      }
+
+      .markdown {
+        padding: 32px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: var(--surface);
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .badges img,
+      .stats img {
+        margin: 4px;
+        vertical-align: middle;
+      }
+
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        margin: 0 0 16px;
+      }
+
+      .mock-card,
+      .mock-graph {
+        padding: 16px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: #ffffff;
+      }
+
+      .mock-graph {
+        width: 100%;
+        margin: 0 0 16px;
+      }
+
+      .mock-card h3,
+      .mock-graph h3 {
+        margin: 0 0 8px;
+        font-size: 1rem;
+      }
+
+      .mock-card p,
+      .mock-graph p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .lang-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .lang-list span {
+        padding: 4px 8px;
+        border-radius: 999px;
+        background: #f6f8fa;
+        border: 1px solid var(--border);
+        font-size: 0.85rem;
+      }
+
+      .calendar-grid {
+        display: grid;
+        grid-template-rows: repeat(7, 12px);
+        grid-auto-flow: column;
+        grid-auto-columns: minmax(8px, 1fr);
+        gap: 4px;
+        margin-top: 12px;
+      }
+
+      .day-cell {
+        border-radius: 2px;
+        background: #ebedf0;
+      }
+
+      .level-1 {
+        background: #9be9a8;
+      }
+
+      .level-2 {
+        background: #40c463;
+      }
+
+      .level-3 {
+        background: #30a14e;
+      }
+
+      .level-4 {
+        background: #216e39;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 24px 0 16px;
+        line-height: 1.25;
+      }
+
+      h1 {
+        padding-bottom: 0.3em;
+        border-bottom: 1px solid var(--border);
+        font-size: 2em;
+      }
+
+      h2 {
+        padding-bottom: 0.3em;
+        border-bottom: 1px solid var(--border);
+        font-size: 1.5em;
+      }
+
+      h3 {
+        font-size: 1.25em;
+      }
+
+      p,
+      ul {
+        margin: 0 0 16px;
+      }
+
+      ul {
+        padding-left: 2em;
+      }
+
+      code {
+        padding: 0.2em 0.4em;
+        border-radius: 6px;
+        background: var(--code-bg);
+        font: 85% ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace;
+      }
+
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      strong {
+        font-weight: 600;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 0 16px;
+      }
+
+      th,
+      td {
+        padding: 8px 12px;
+        border: 1px solid var(--border);
+        vertical-align: top;
+        text-align: left;
+      }
+
+      th {
+        background: #f6f8fa;
+      }
+
+      @media (max-width: 720px) {
+        .stats-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <div class="note">
+        Approximate GitHub README preview. External README image services are replaced here with local mock cards so the layout is visible.
+      </div>
+
+      <article class="markdown">
+        <p class="center">
+          <img src="../assets/profile-header.svg" alt="Umang Shah profile header" />
+        </p>
+
+        <p class="center badges">
+          <a href="https://www.linkedin.com/in/shah-umang-me/"><img src="https://img.shields.io/badge/LinkedIn-shah--umang--me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+          <a href="https://umangshah.me"><img src="https://img.shields.io/badge/Portfolio-umangshah.me-BB4D00?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
+          <a href="mailto:umangshah97@gmail.com"><img src="https://img.shields.io/badge/Email-umangshah97%40gmail.com-8B1E1E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+        </p>
+
+        <h1>Hi, I'm Umang Shah</h1>
+
+        <p>
+          Software Engineer based in New York City. I build reliable
+          backend systems, data pipelines, and internal tools for data-heavy products.
+        </p>
+
+        <h2>GitHub Snapshot</h2>
+
+        <div class="stats-grid">
+          <div class="mock-card">
+            <h3>GitHub Stats</h3>
+            <p>Commits, repos, stars, and activity summary card rendered by `github-readme-stats` on GitHub.</p>
+          </div>
+          <div class="mock-card">
+            <h3>Top Languages</h3>
+            <p>Compact language summary card rendered by `github-readme-stats` on GitHub.</p>
+            <div class="lang-list">
+              <span>Python</span>
+              <span>Java</span>
+              <span>C#</span>
+              <span>Spark</span>
+              <span>SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mock-graph">
+          <h3>Contribution Chart</h3>
+          <p>Classic-style contribution grid preview for layout only.</p>
+          <div class="calendar-grid" id="calendar-grid" aria-label="Classic style contribution chart preview"></div>
+        </div>
+
+        <h2>About Me</h2>
+
+        <ul>
+          <li>Currently working on pricing workflows and platform reliability at Nomura</li>
+          <li>Most comfortable with backend systems, data engineering, cloud workflows, and API design</li>
+          <li>Background across finance, healthcare, and product-focused tooling</li>
+        </ul>
+
+        <h2>Tech Stack</h2>
+
+        <p><strong>Languages &amp; Frameworks</strong></p>
+        <p>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+          <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
+          <img src="https://img.shields.io/badge/Angular-0F0F11?style=flat-square&logo=angular&logoColor=C3002F" alt="Angular" />
+          <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+          <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=sharp&logoColor=white" alt="C#" />
+        </p>
+
+        <p><strong>Data &amp; Cloud</strong></p>
+        <p>
+          <img src="https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" alt="Spark" />
+          <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka" />
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+          <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white" alt="Snowflake" />
+          <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
+          <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure" />
+          <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+          <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+        </p>
+
+        <h2>Featured Work</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Project</th>
+              <th>Summary</th>
+              <th>Stack</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="https://media-magic.umangshah.me">Media Magic</a></td>
+              <td>No-code media optimization and delivery platform for responsive assets with sub-<code>200ms</code> delivery targets.</td>
+              <td><code>AWS S3</code> <code>Lambda</code> <code>CloudFront</code> <code>Rekognition</code> <code>API Gateway</code></td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/umangshah-js/forest-fire-tracker">Forest Fire Tracker</a></td>
+              <td>Real-time wildfire risk mapping pipeline using simulation, computer vision, streaming, and analytics.</td>
+              <td><code>Unity</code> <code>OpenCV</code> <code>Kafka</code> <code>Dask</code> <code>Redis</code> <code>Dash</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Experience Highlights</h2>
+
+        <ul>
+          <li>Delivered <code>67+</code> end-to-end features on a long-lived C# pricing platform at Nomura</li>
+          <li>Replaced spreadsheet-heavy workflows with service-backed automation</li>
+          <li>Processed clinical data for <code>26M+</code> members at UnitedHealth Group</li>
+          <li>Reduced a reporting SLA from <code>6 hours</code> to <code>10 minutes</code> with Kafka-based real-time pipelines</li>
+          <li>Migrated ETL orchestration to AWS Step Functions and S3 at MIO Partners</li>
+        </ul>
+
+        <h2>Connect</h2>
+
+        <p>
+          <a href="https://umangshah.me">Portfolio</a> •
+          <a href="https://www.linkedin.com/in/shah-umang-me/">LinkedIn</a> •
+          <a href="https://github.com/umangshah-js">GitHub</a> •
+          <a href="../assets/UmangShahResume.pdf">Resume</a> •
+          <a href="mailto:umangshah97@gmail.com">Email</a>
+        </p>
+      </article>
+    </main>
+    <script>
+      const calendarGrid = document.getElementById("calendar-grid");
+      const levels = ["level-0", "level-1", "level-2", "level-3", "level-4"];
+      const weeks = 36;
+      const days = 7;
+
+      for (let week = 0; week < weeks; week += 1) {
+        for (let day = 0; day < days; day += 1) {
+          const cell = document.createElement("div");
+          const levelIndex = (week * 3 + day * 2 + (week % 5)) % levels.length;
+          cell.className = `day-cell ${levels[levelIndex]}`;
+          calendarGrid.appendChild(cell);
+        }
+      }
+    </script>
+  </body>
+</html>

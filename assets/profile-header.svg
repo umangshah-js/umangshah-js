@@ -1,0 +1,12 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="320" rx="32" fill="#15110E"/>
+  <rect x="24" y="24" width="1232" height="272" rx="24" fill="#1F1814"/>
+  <circle cx="1088" cy="88" r="136" fill="#A23A1E" fill-opacity="0.32"/>
+  <circle cx="1186" cy="258" r="112" fill="#E3A75E" fill-opacity="0.22"/>
+  <circle cx="978" cy="256" r="68" fill="#F2E5D3" fill-opacity="0.08"/>
+  <path d="M60 236H1220" stroke="#F2E5D3" stroke-opacity="0.12" stroke-width="2"/>
+  <text x="64" y="88" fill="#E3A75E" font-family="Menlo, Monaco, Consolas, monospace" font-size="22" letter-spacing="3.6">UMANG SHAH / DATA + PLATFORM ENGINEERING</text>
+  <text x="64" y="156" fill="#FFF7ED" font-family="Georgia, Times New Roman, serif" font-size="60" font-weight="700">Reliable systems for</text>
+  <text x="64" y="222" fill="#FFF7ED" font-family="Georgia, Times New Roman, serif" font-size="60" font-weight="700">data-heavy products.</text>
+  <text x="66" y="272" fill="#D9C7B4" font-family="Menlo, Monaco, Consolas, monospace" font-size="22">NYC  /  NOMURA  /  AWS  /  KAFKA  /  SPARK  /  PRODUCT-MINDED TOOLING</text>
+</svg>
